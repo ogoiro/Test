@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    margin: 0;
+    background-color: #1a1a1a;
+}
+.sphere{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(135dg,#413281,#0e0d0d);
+}
+@keyframes rotate{
+    from{
+    transform: rotate(0dg);
+}
+to{
+    transform: rotate(360dg);
+}
+}
+.floor{
+   background-image: linear-gradient(to bottom,#413281,#0e0d0d);
+    width: 100;
+  flex-grow: 1;
+}
+
